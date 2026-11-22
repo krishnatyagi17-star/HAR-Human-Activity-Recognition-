@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary checkpoint copies
+.ipynb_checkpoints/
+
+# OS metadata extracted from macOS archives
+__MACOSX/
+.DS_Store
+
+# UCI data is used by training/preprocessing notebooks, not the app at runtime.
+# Keep the original data locally; download it separately to rerun notebooks.
+/UCI HAR Dataset/
+/UCI HAR Dataset.zip
+
+# Compressed duplicates are not loaded by app.py; the original NPY files are used.
+*.npy.gz
+
+# Local backups and receiver runtime output
+/.optimization_backup/
+/stream_log.jsonl
+
+# Duplicate notebook (SHA-256 verified identical to project.ipynb)
+/Untitled.ipynb
+
+# Local test and tool outputs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
