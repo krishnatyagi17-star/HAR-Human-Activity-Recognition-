@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs,standardisation,platform version
+3,SM-M146B,1793014582837,2026-10-26_11-36-22,Asia/Calcutta,android,1.68,20bc1fdc-c782-43e9-b20a-ad214c37970b,Accelerometer|Gravity|Gyroscope|Annotation|TotalAcceleration|GyroscopeUncalibrated|AccelerometerUncalibrated,0|0|0||0|0|0,false,35
