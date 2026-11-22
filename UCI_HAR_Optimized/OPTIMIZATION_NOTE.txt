@@ -1,0 +1,6 @@
+UCI HAR optimized representative subset
+Rows selected independently within each activity class: 5%; seed=42.
+Rows remain aligned across X, y, subject, and all inertial signal files.
+All original values, 561 feature columns, six labels, and file paths are preserved.
+This subset supports notebook loading and development, but is not the full dataset
+and must not be used to report official benchmark metrics.
